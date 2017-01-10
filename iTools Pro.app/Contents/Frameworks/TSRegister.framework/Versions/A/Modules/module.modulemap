@@ -1,6 +1,0 @@
-framework module TSRegister {
-  umbrella header "TSRegister.h"
-
-  export *
-  module * { export * }
-}
