@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C5906A11F3D4F390091A7EE /* zjwViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5906A01F3D4F390091A7EE /* zjwViewController.m */; };
 		2C7280C61F15CEED0053EE59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7280C51F15CEED0053EE59 /* main.m */; };
 		2C7280C91F15CEED0053EE59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7280C81F15CEED0053EE59 /* AppDelegate.m */; };
 		2C7280CC1F15CEED0053EE59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7280CB1F15CEED0053EE59 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C59069F1F3D4F390091A7EE /* zjwViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zjwViewController.h; sourceTree = "<group>"; };
+		2C5906A01F3D4F390091A7EE /* zjwViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zjwViewController.m; sourceTree = "<group>"; };
 		2C7280C11F15CEED0053EE59 /* gitlianxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitlianxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7280C51F15CEED0053EE59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C7280C71F15CEED0053EE59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				2C7280C81F15CEED0053EE59 /* AppDelegate.m */,
 				2C7280CA1F15CEED0053EE59 /* ViewController.h */,
 				2C7280CB1F15CEED0053EE59 /* ViewController.m */,
+				2C59069F1F3D4F390091A7EE /* zjwViewController.h */,
+				2C5906A01F3D4F390091A7EE /* zjwViewController.m */,
 				2C7280CD1F15CEED0053EE59 /* Main.storyboard */,
 				2C7280D01F15CEED0053EE59 /* Assets.xcassets */,
 				2C7280D21F15CEED0053EE59 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C5906A11F3D4F390091A7EE /* zjwViewController.m in Sources */,
 				2C7280CC1F15CEED0053EE59 /* ViewController.m in Sources */,
 				2C7280C91F15CEED0053EE59 /* AppDelegate.m in Sources */,
 				2C7280C61F15CEED0053EE59 /* main.m in Sources */,
@@ -311,6 +317,7 @@
 				2C7280DA1F15CEED0053EE59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
